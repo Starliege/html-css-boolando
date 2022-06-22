@@ -148,51 +148,51 @@ main {
 /* foto */
 
 .articolo:nth-child(1) > .foto {
-    background-image: url(../img/1.webp);
+    background-image: url(/img/1.webp);
 }
 
 .articolo:nth-child(1):hover > .foto {
-    background-image: url(../img/1b.webp);
+    background-image: url(/img/1b.webp);
 }
 
 .articolo:nth-child(2) > .foto {
-    background-image: url(../img/2.webp);
+    background-image: url(/img/2.webp);
 }
 
 .articolo:nth-child(2):hover > .foto {
-    background-image: url(../img/2b.webp);
+    background-image: url(/img/2b.webp);
 }
 
 .articolo:nth-child(3) > .foto {
-    background-image: url(../img/3.webp);
+    background-image: url(/img/3.webp);
 }
 
 .articolo:nth-child(3):hover > .foto {
-    background-image: url(../img/3b.webp);
+    background-image: url(/img/3b.webp);
 }
 
 .articolo:nth-child(4) > .foto {
-    background-image: url(../img/4.webp);
+    background-image: url(/img/4.webp);
 }
 
 .articolo:nth-child(4):hover > .foto {
-    background-image: url(../img/4b.webp);
+    background-image: url(/img/4b.webp);
 }
 
 .articolo:nth-child(5) > .foto {
-    background-image: url(../img/5.webp);
+    background-image: url(/img/5.webp);
 }
 
 .articolo:nth-child(5):hover > .foto {
-    background-image: url(../img/5b.webp);
+    background-image: url(/img/5b.webp);
 }
 
 .articolo:nth-child(6) > .foto {
-    background-image: url(../img/6.webp);
+    background-image: url(/img/6.webp);
 }
 
 .articolo:nth-child(6):hover > .foto {
-    background-image: url(../img/6b.webp);
+    background-image: url(/img/6b.webp);
 }
 
 main::after {
