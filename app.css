@@ -10,3 +10,194 @@
     border: 1px solid red;
     padding: 5px;
 }
+
+body {
+    background-color: #FFF;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #000;
+    margin: auto;
+}
+
+/* header */
+
+#top {
+    background-color: rgb(255, 115, 0);
+    text-align: center;
+    font-size: 12px;
+}
+
+#top > .container {
+    width: 80%;
+    min-width: 1000px;
+    max-width: 1300px;
+    padding: 20px 60px 20px 0;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+#top nav > ul {
+    list-style: none;
+}
+
+#top nav > ul > li {
+    display: inline-block;
+    padding-right: 5px;
+}
+
+#top nav > ul > li > a {
+    color: #FFF;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+i {
+    margin-right: 10px;
+    color: white;
+}
+
+.logo {
+    margin: auto;
+    height: 25px;
+}
+
+/* articoli */
+
+main {
+    margin: auto;
+    width: 70%;
+}
+
+.articolo {
+    width: 400px;
+    cursor: pointer;
+    float: left;
+    margin: 10px;
+    
+}
+
+.articolo > .foto {
+    position: relative;
+    height: 500px;
+    margin-bottom: 10px;
+    background-size: cover;
+    background-position: center;
+}
+
+.foto > .like {
+    position: absolute;
+    top: 15px;
+    right: 0;
+    padding: 5px 10px;
+    background-color: #FFF;
+    font-size: 24px;
+}
+
+.foto > .like:hover {
+    background-color: #F00;
+    color: #FFF;
+}
+
+.foto > .info {
+    position: absolute;
+    bottom: 15px;
+    left: 0;
+}
+
+.info > .discount, .info > .sosten {
+    padding: 5px;
+    color: #FFF;
+    font-weight: bold;
+}
+
+.info > .discount {
+    background-color: #f00;
+}
+
+.info > .sosten {
+    background-color: #00875A;
+}
+
+.articolo > .brand {
+    font-size: 14px;
+    color: #333;
+}
+
+.articolo > .label {
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #000;
+    font-weight: bold;
+}
+
+.articolo > .price {
+    font-size: 14px;
+    color: #f00;
+    font-weight: bold;
+}
+
+.articolo > .price > .old {
+    text-decoration: line-through;
+    color: #000;
+    font-weight: normal;
+}
+
+/* foto */
+
+.articolo:nth-child(1) > .foto {
+    background-image: url(../img/1.webp);
+}
+
+.articolo:nth-child(1):hover > .foto {
+    background-image: url(../img/1b.webp);
+}
+
+.articolo:nth-child(2) > .foto {
+    background-image: url(../img/2.webp);
+}
+
+.articolo:nth-child(2):hover > .foto {
+    background-image: url(../img/2b.webp);
+}
+
+.articolo:nth-child(3) > .foto {
+    background-image: url(../img/3.webp);
+}
+
+.articolo:nth-child(3):hover > .foto {
+    background-image: url(../img/3b.webp);
+}
+
+.articolo:nth-child(4) > .foto {
+    background-image: url(../img/4.webp);
+}
+
+.articolo:nth-child(4):hover > .foto {
+    background-image: url(../img/4b.webp);
+}
+
+.articolo:nth-child(5) > .foto {
+    background-image: url(../img/5.webp);
+}
+
+.articolo:nth-child(5):hover > .foto {
+    background-image: url(../img/5b.webp);
+}
+
+.articolo:nth-child(6) > .foto {
+    background-image: url(../img/6.webp);
+}
+
+.articolo:nth-child(6):hover > .foto {
+    background-image: url(../img/6b.webp);
+}
+
+main::after {
+    content: "";
+  display: table;
+  clear: both;
+}
+
+/* footer */
