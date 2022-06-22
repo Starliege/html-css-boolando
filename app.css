@@ -68,6 +68,7 @@ i {
 main {
     margin: auto;
     width: 70%;
+    padding-bottom: 40px;
 }
 
 .articolo {
@@ -201,3 +202,40 @@ main::after {
 }
 
 /* footer */
+
+#bot {
+    background-color: black;
+    font-size: 12px;
+}
+
+#bot > .container {
+    width: 80%;
+    min-width: 1000px;
+    max-width: 1300px;
+    padding: 20px 0px 20px 0;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#bot nav > ul {
+    list-style: none;
+    font-size: 8px;
+}
+
+#bot nav > ul > li {
+    display: inline-block;
+    padding-right: 5px;
+}
+
+#bot nav > ul > li > a {
+    color: #FFF;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.rightfoot {
+    color: white;
+    margin-right: 60px;
+}
